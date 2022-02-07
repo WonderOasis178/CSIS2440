@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+* {
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	margin: 0;
+}
+
+body {
+	font-family: "Poppins", serif;
+	margin: 0;
+	background: #f2f2f2;
+	font-size: 1.5rem;
+	background-image: url(../img/background.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+h1 {
+	text-align: center;
+	padding: 20px 5px;
+	color: #f5f5f5;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+}
+
+#header {
+	text-align: center;
+	border-bottom: 1px solid black;
+	padding: 5px;
+	margin-bottom: 15px;
+}
+
+.back-link {
+	float: left;
+	padding-left: 15px;
+}
+
+.container h2 {
+	margin: 100px auto 60px auto;
+	text-align: center;
+	font-weight: bold;
+}
+
+.card-body h5 {
+	font-size: 20px;
+	color: #7a5952;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.card-body p {
+	font-weight: bold;
+	font-size: 0.5em;
+}
+
+.music-wrapper {
+	color: whitesmoke;
+	display: block;
+	width: 55%;
+	margin: auto;
+	text-align: center;
+	padding: 10px;
+}
+
+.music-wrapper h2 {
+	color: #b7695c;
+	font-size: 35px;
+	margin-top: 10px;
+	padding: 15px 0px;
+}
+
+.music-wrapper table {
+	border: 3px solid white;
+	display: inline-block;
+	font-size: 20px;
+	margin: 15px;
+}
+
+.music-wrapper table tr th {
+	font-size: 25px;
+	padding: 10px;
+	color: black;
+	background-color: teal;
+}
+
+.music-wrapper table tr td {
+	width: 400px;
+	padding: 10px;
+	background-color: grey;
+}
